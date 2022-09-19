@@ -15,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('concert__tickets', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('performer');
+            $table->string('location');
         });
     }
 

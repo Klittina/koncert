@@ -11,7 +11,6 @@ class Order extends Model
     protected $fillable = [
         'order_id',
         'user_id',
-        'concert_id',
         'quantity',
     ];
 }
