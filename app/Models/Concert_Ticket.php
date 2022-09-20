@@ -11,7 +11,6 @@ class Concert_Ticket extends Model
     protected $fillable = [
         'concert_id',
         'performer',
-        'concert_id',
         'location',
     ];
 }
